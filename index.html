@@ -4,13 +4,60 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
 
     <body>
-        <h2>Sobre Nós</h2>
-        <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem empresa">
+
+        <section class="container">
+            <h2>Sobre Nós</h2>
+            <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem empresa">
+
+            <div class="panel-group" id="panel-sobre">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#panel-sobre">Desde 1935</h3>
+                    </div>
+                    <div id="primeiro-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo uma série de projetos de qualidade para seus clientes e mudando suas vidas para sempre.
+                                    Nossa empresa construiu o palácio Dionísio para Don Pedro IX que ninguém nunca ouviu falar.</p>
+                            <!-- Collapse-JS-bootstrap -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#panel-sobre">Preços acessíveis</h3>
+                    </div>
+                    <div id="segundo-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>Com projetos a partir de R$ 5.000.000,00 a nossa empresa procura abranger os clientes mais ricos do mundo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#panel-sobre">Alegria para colaborar com um mundo mais bonito</h3>
+                        </div>
+                        <div id="terceiro-paragrafo" class="collapse">
+                            <div class="panel-body">
+                                <p>Os projetos da TopCasaFina Arquitetura são sempre acompanhados dos melhores profissionais de decoração para que
+                                        o produto final fique lindo.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <div></div>
 
     </body>
-
+    <script src="jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </html>
