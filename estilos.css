@@ -14,3 +14,20 @@
     text-align: center
 
 }
+
+.form-radio{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.contato-select{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+.form-radio .radio:first-child{
+    margin-top: 0px;
+}
