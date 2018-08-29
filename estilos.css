@@ -3,6 +3,44 @@
 
 }
 
+body, html{
+height: 100%;
+}
+
+header {
+    background-image: url(assets/img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    position: relative;
+}
+
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 6vw;
+}
+
+
+.topcasafina-banner {
+    position: absolute;
+    font-size: 3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s;
+    color: #fff;
+    background-color: rgba(3, 3, 3, 0.5);
+    padding: 15px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.topcasafina-banner a{
+    color: #fff;
+    text-decoration: none;
+}
 .titulo-depoimentos{
     background-color: #0275d8;
     padding-top: 20px;
@@ -21,10 +59,10 @@
     vertical-align: middle;
 }
 
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
     display: block;
     width: 100%;
-    height: 50vw;
+    height: 60vw;
 }
 .contato-select{
     display: inline-block;
@@ -46,4 +84,39 @@ footer{
 
 footer address:last-child {
     margin-bottom: 0px;
+}
+
+@media(min-width: 768px){
+
+      .projeto-responsivo-sobrenos{
+         float: left;
+         width: 47%;
+      }
+
+      .projeto-responsivo-sobrenos img{
+          height: 30vw;
+      }
+
+      #panel-sobre{
+          margin-top: 0px;
+          margin-left: 20px;
+      }
+
+      .topcasafina-banner{
+          top: 55%;
+      }
+      .titulo-depoimentos {
+          width: 100%;
+      }
+
+      .container {
+          width: 100%;
+      }
+      
+      #carousel-example-generic img{
+          height: 50vw;
+      }
+
+     
+
 }
